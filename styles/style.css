@@ -88,12 +88,23 @@
 .banner-section{
   display: flex;
   align-items: center;
+  height: 100vh;
+}
+.main-banner-text{
+  width: 50%;
+  /* border: 1px solid burlywood; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-image: url("../images/Group\ 14.png");
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .banner-text{
-   width: 50%;
    text-align: center;
-   border: 1px solid red;
+   /* border: 1px solid red; */
+   width: 100%;
   
    
 }
@@ -113,16 +124,41 @@
   -webkit-text-fill-color: transparent;
 }
 .banner-text .banner-list{
-  border: 1px solid red;
-  width: 48%;
+  /* border: 1px solid red; */
+  width: 45%;
   margin: 0 auto;
   text-align: left;
+  margin-bottom: 30px;
 
 }
 
 .banner-text .banner-list ul li{
   list-style: none;
+  color: #534C64;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: lowercase;
+  margin-top: 12px;
 }
+
+.banner-button{
+  color: #FFF;
+  font-size: 0.9rem;
+  font-weight: 500;
+  line-height: normal;
+  text-transform: uppercase;
+  border: none;
+  padding: 20px 40px;
+  border-radius: 48px;
+}
+.first-button{
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+.second-button{
+  
+   background: #4EC5F7;
+}
+
 .banner-images{
   width: 50%;
   
@@ -130,3 +166,4 @@
 .banner-images .banner-photo{
   width: 77%;
 }
+
