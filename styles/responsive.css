@@ -188,30 +188,60 @@
   .main-footer{
     height: 130vh;
   }
+  .footer-header{
+    gap: 5px;
+  }
+  .footer-header .game-name{
+    font-size: 0.6rem;
+    margin-right: 35px;
+  }
+  .the-logo img{
+    width: 40%;
+  }
+  .the-logo{
+    justify-content: flex-end;
+  }
   .footer-links{
-    width: 60%;
+    width: 40%;
     
-    
+  }
+  .footer-links ul li a{
+   
+    font-size: 0.6rem;
+   
   }
   .footer-links ul{
      gap: 10px;
   }
   .footer-icons{
-    width: 40%;
+    width: 30%;
   }
   .footer-icons ul{
     gap: 20px;
  }  
 
+ .footer-icons .fa-brands{
+  font-size: 1.5rem;
+}
+
  .footer-terms{
-  width: 70%;
+  width: 50%;
 }
 .footer-terms ul{
   gap: 10px;
 }
 
+.footer-terms ul li a{
+
+  font-size: 0.6rem;
+}
+
 .footer-ending{
   width: 50%;
   margin: 35px auto;
+  margin-top: 50px;
+}
+.footer-ending p{
+  font-size: 0.6rem;
 }
 }
