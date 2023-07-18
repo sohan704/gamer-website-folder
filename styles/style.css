@@ -82,3 +82,51 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* banner styles */
+
+.banner-section{
+  display: flex;
+  align-items: center;
+}
+
+.banner-text{
+   width: 50%;
+   text-align: center;
+   border: 1px solid red;
+  
+   
+}
+.banner-text .banner-text-paragraph{
+  color: #0B0223;
+  font-size: 2.6rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-text-goat{
+  font-size: 5.3rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.banner-text .banner-list{
+  border: 1px solid red;
+  width: 48%;
+  margin: 0 auto;
+  text-align: left;
+
+}
+
+.banner-text .banner-list ul li{
+  list-style: none;
+}
+.banner-images{
+  width: 50%;
+  
+}
+.banner-images .banner-photo{
+  width: 77%;
+}
