@@ -105,6 +105,7 @@
    text-align: center;
    /* border: 1px solid red; */
    width: 100%;
+   padding-right: 90px;
   
    
 }
@@ -148,7 +149,7 @@
   line-height: normal;
   text-transform: uppercase;
   border: none;
-  padding: 20px 40px;
+  padding: 18px 37px;
   border-radius: 48px;
 }
 .first-button{
@@ -167,3 +168,43 @@
   width: 77%;
 }
 
+/* online section styles */
+
+.online-section{
+  height: 100vh;
+  width: 80%;
+  margin: 0 auto;
+}
+.online-header{
+  color: #0B0223;
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin-top: 40px;
+}
+.funny-section{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.online-card-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 24px;
+  margin-top: 40px;
+}
+.online-card .card-text{
+  margin-top: 10px;
+}
+.online-card img{
+  width: 100%;
+}
+.online-section .online-description{
+  color: #534C64;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-top: 16px;
+}
