@@ -49,19 +49,22 @@
 
   .banner-section{
     flex-direction: column-reverse;
-    margin-top: 90px;
+    margin-top: 170px;
   }
 
   .main-banner-text{
     width: 90%;
     margin: 20px auto 0px;
     /* border: 1px solid burlywood; */
+    padding-bottom: 20px;
+    
   }
   
   .banner-text .banner-text-paragraph{
   
     font-size: 1.1rem;
     margin-top: 40px;
+
   }
 
   .banner-text-goat{
@@ -94,5 +97,26 @@
     display: flex;
     justify-content: center;
     
+  }
+  .online-card-container{
+    grid-template-columns: 1fr;
+  }
+
+  .online-header{
+    font-size: 1.4rem;
+  }
+
+  .online-section .online-description{
+    font-size: 0.6rem;
+  }
+  
+
+  .online-card .card-text{
+    font-size: 0.7rem; 
+    text-align: center;
+  }
+  .online-card img{
+    width: 80%;
+    margin-left: 10%;
   }
 }
