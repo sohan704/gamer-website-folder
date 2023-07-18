@@ -271,3 +271,39 @@
   width: 40%;
 }
 
+
+/* game section styles */
+
+.main-games-section{
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  /* align-content: center; */
+}
+.games-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+  gap: 30px;
+  /* align-content: center; */
+}
+.game{
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  background: #FFF;
+  padding: 3px;
+}
+
+.game .game-text{
+  color: #0B0223;
+  font-family: Work Sans;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
