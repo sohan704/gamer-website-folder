@@ -169,14 +169,49 @@
   }
   .game{
     padding: 1px;
+    gap: 0px;
    
   }
   .game .game-text{
     font-size: 0.5rem;
     font-weight: 600;
+  
    
   }
   .game .game-icon img{
     width: 60%;
   }
+  .game .game-icon{
+    display: flex;
+    justify-content: center;
+  }
+  .main-footer{
+    height: 130vh;
+  }
+  .footer-links{
+    width: 60%;
+    
+    
+  }
+  .footer-links ul{
+     gap: 10px;
+  }
+  .footer-icons{
+    width: 40%;
+  }
+  .footer-icons ul{
+    gap: 20px;
+ }  
+
+ .footer-terms{
+  width: 70%;
+}
+.footer-terms ul{
+  gap: 10px;
+}
+
+.footer-ending{
+  width: 50%;
+  margin: 35px auto;
+}
 }
