@@ -119,4 +119,43 @@
     width: 80%;
     margin-left: 10%;
   }
+
+  .poster-section{
+   margin-top: 1100px;
+   flex-direction: column;
+   width: 100%;
+  }
+  .poster-text{
+    width: 100%;
+  }
+  .poster-images{
+    width: 100%;
+  }
+  .poster-header{
+    font-size: 1.6rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .poster-text .poster-description{
+    text-align: center;
+    font-size: 0.6rem;
+    width: 48%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  .main-poster-image{
+    position: relative;
+    width: 60%;
+    left: 90px;
+  }
+  .side-poster-image{
+    position: absolute;
+    top: 145px;
+    left: 33px;
+    width: 29%;
+  }
 }
