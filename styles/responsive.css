@@ -158,6 +158,12 @@
 /* ----------------------------------------------------------------- */
 
 @media screen and (max-width: 576px){
+
+  .main-header{
+    background: none;
+    box-shadow: none;
+
+  }
   .header-section{
     flex-direction: column;
     width: 100%;
@@ -415,4 +421,3 @@
   font-size: 0.6rem;
 }
 }
-
