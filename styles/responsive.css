@@ -1,3 +1,162 @@
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .header-section{
+    width: 100%;
+  }
+
+  .header-logo{
+    width: 35%;
+    margin-left: 5%;
+  }
+  
+  .header-logo h2{
+    font-size: 2rem;
+  }
+
+  .navbar ul li{
+    font-size: 0.7rem;
+  }
+  .navbar ul{
+    gap: 20px;
+  }
+  .follow-btn{
+    font-size: 0.7rem;
+    gap: 0.5rem;
+    padding: 8px 12px;
+  }
+  /*  */
+  .banner-section{
+    margin-top: 0px;
+    height: 60vh;
+  }
+  .banner-text{
+    margin-top: -20px;
+  }
+  .banner-text .banner-text-paragraph{
+    font-size: 1.5rem;
+  }
+  .banner-text-goat{
+    font-size: 3rem;
+  }
+  .banner-text .banner-list{
+    width: 70%;
+    margin-left: 20%;
+  }
+  .banner-text .banner-list ul li{
+    font-size: 0.7rem;
+  }
+  .banner-button{
+    font-size: 0.6rem;
+    padding: 9px 18px;
+  }
+  .banner-images .banner-photo{
+    width: 75%;
+    margin-top: -2%;
+  }
+  
+  /* ----------- */
+  .online-header{
+    font-size: 1.4rem;
+  }
+
+  .online-card-container{
+    grid-template-columns: repeat(2,1fr);
+  }
+
+  .online-section .online-description{
+    font-size: 0.8rem;
+  }
+
+  .online-card .card-text{
+    font-size: 0.8rem;
+  }
+
+  /* ------- */
+
+  .poster-section{
+    margin-top: 65%;
+    /* border: 1px solid red; */
+  }
+
+  .poster-header{
+    font-size: 1.4rem;
+  }
+
+  .poster-text .poster-description{
+    font-size: 0.65rem;
+    width: 50%;
+  }
+
+  .main-poster-image{
+    width: 95%;
+    left: 15px;
+  }
+  .side-poster-image{
+    position: absolute;
+    top: 170px;
+    left: -50px;
+    width: 45%;
+  }
+  /* --------------------- */
+  .main-games-section{
+    padding-top: 20px;
+    /* align-content: center; */
+    padding-bottom: 20px;
+  }
+  .games-container{
+    /* border: 1px solid red; */
+    gap: 20px;
+    /* align-content: center; */
+  }
+  .game{
+    padding: 1px;
+    gap: 1px;
+  }
+  .game .game-text{
+    font-size: 0.6rem;
+  }
+  .game .game-icon{
+    width: 50%;
+  }
+  /* -------------------- */
+
+  .main-footer{
+    background: #0B0223;
+    height: 90vh;
+  }
+
+  .footer-links{
+    width: 60%;
+    
+  }
+  .footer-links ul li a{
+
+    font-size: 0.7rem;
+  }
+
+  .footer-icons{
+    width: 40%;
+    
+  }
+
+  .footer-icons .fa-brands{
+    font-size: 1.7rem;
+  }
+
+  .footer-terms{
+    width: 55%;
+  }
+  .footer-terms ul li a{
+
+    font-size: 0.7rem;
+  }
+
+  .footer-ending{
+    font-size: 0.7rem;
+   
+  }
+}
+/* ----------------------------------------------------------------- */
+
 @media screen and (max-width: 576px){
   .header-section{
     flex-direction: column;
@@ -76,8 +235,12 @@
     
     text-align: left;
     /* border: 1px solid red; */
-    margin-left: 33%;
+    /* margin-left: 33%; */
      margin-bottom: 18px;
+ /* ------  */
+     width: 70%;
+    margin-left: 25%;
+    /* ------- */
   
   }
 
@@ -252,3 +415,4 @@
   font-size: 0.6rem;
 }
 }
+
