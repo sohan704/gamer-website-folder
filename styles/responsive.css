@@ -109,7 +109,14 @@
   .online-section .online-description{
     font-size: 0.6rem;
   }
-  
+  /*  */
+  .overlay{
+    
+    width: 80%;
+    left: 30px;
+    
+  }
+  /*  */
 
   .online-card .card-text{
     font-size: 0.7rem; 

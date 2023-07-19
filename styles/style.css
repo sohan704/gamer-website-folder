@@ -189,12 +189,48 @@
   -webkit-text-fill-color: transparent;
 }
 
+
 .online-card-container{
   display: grid;
   grid-template-columns: repeat(4,1fr);
   gap: 24px;
   margin-top: 40px;
 }
+/*  */
+.online-card img:hover {
+  opacity: 0.5;
+ 
+}
+
+.online-card-photo{
+  position: relative;
+
+}
+.overlay{
+  position: absolute;
+  height: 97%;
+  width: 99%;
+  background-color: #080808;
+
+  top: 0px;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgb(255, 4, 46);
+  border-radius: 10px;
+   color: #fc3ea0;
+    /*  */
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+}
+.overlay:hover{
+  opacity: 0.8;
+}
+
+/*  */
 .online-card .card-text{
   margin-top: 10px;
   color: #534C64;
@@ -297,7 +333,11 @@
   border-radius: 50px;
   background: #FFF;
   padding: 3px;
+
+  /*  */
+  
 }
+
 
 .game .game-text{
   color: #0B0223;
@@ -429,3 +469,17 @@
   font-weight: 400;
   margin-top: 30px;
 }
+
+.main-games-section .games-container .game:hover {
+
+
+  border: 2px solid #FF42A5;
+  border-radius: 42px;
+  /*  */
+  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
